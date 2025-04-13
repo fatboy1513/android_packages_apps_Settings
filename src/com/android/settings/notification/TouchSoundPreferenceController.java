@@ -35,7 +35,7 @@ public class TouchSoundPreferenceController extends SettingPrefController {
             Lifecycle lifecycle) {
         super(context, parent, lifecycle);
         mPreference = new SettingPref(
-            TYPE_SYSTEM, KEY_TOUCH_SOUNDS, System.SOUND_EFFECTS_ENABLED, DEFAULT_ON) {
+            TYPE_SYSTEM, KEY_TOUCH_SOUNDS, System.SOUND_EFFECTS_ENABLED, 0) {
             @Override
             protected boolean setSetting(final Context context, final int value) {
                 AsyncTask.execute(new Runnable() {
