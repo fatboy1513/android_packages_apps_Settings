@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">滑动截屏</string>
+    <string name="three_finger_gesture_summary">用三根手指同时向下滑动即可截取屏幕</string>
+
+</resources>
